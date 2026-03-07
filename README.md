@@ -1,6 +1,6 @@
 # Echoes of Ownership: Adversarial-Guided Dual Injection for Copyright Protection in MLLMs 
 
-  <a href="https://arxiv.org/abs/2602.18845" target="_blank"><img src="https://img.shields.io/badge/arXiv-2601.14171-red"></a>
+  <a href="https://arxiv.org/abs/2602.18845" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.18845-red"></a>
   <a href="https://huggingface.co/NiuBiMa/AGDI_model/tree/main" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-red%22"></a>
   <a href="https://huggingface.co/datasets/NiuBiMa/AGDI_dataset/tree/main" target="_blank"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Dataset-red%22"></a>
 
