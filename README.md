@@ -45,7 +45,7 @@ pip install -e .
 ```
 
 3. Install additional packages for training cases
-```
+```sh
 pip install -e ".[train]"
 pip install flash-attn --no-build-isolation
 ```
@@ -179,7 +179,7 @@ We appreciate it if you cite the following paper:
 @InProceedings{xia2026agdi,
   author    = {Chengwei Xia, Fan Ma, Ruijie Quan,Yunqiu Xu, Kun Zhan, Yi Yang},
   booktitle = {CVPR},
-  title     = {Echoes of Ownership: Adversarial-Guided Dual Injection for Copyright Protection in MLLMs},
+  title     = {Echoes of ownership: Adversarial-guided dual injection for copyright protection in MLLMs},
   year      = {2026},
 }
 ```
