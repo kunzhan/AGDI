@@ -1,0 +1,19 @@
+0,1,2,3
+/home/xcw/anaconda3/envs/llava/lib/python3.10/site-packages/clip/clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+/home/xcw/anaconda3/envs/llava/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+You are using a model of type llava to instantiate a model of type llava_llama. This is not supported for all configurations of models and can yield errors.
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]/home/xcw/anaconda3/envs/llava/lib/python3.10/site-packages/torch/_utils.py:831: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Loading checkpoint shards:  50%|█████     | 1/2 [00:19<00:19, 19.62s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:26<00:00, 12.29s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:26<00:00, 13.39s/it]
+0it [00:00, ?it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s][A/home/xcw/anaconda3/envs/llava/lib/python3.10/site-packages/torchvision/transforms/functional.py:1603: UserWarning: The default value of the antialias parameter of all the resizing transforms (Resize(), RandomResizedCrop(), etc.) will change from None to True in v0.17, in order to be consistent across the PIL and Tensor backends. To suppress this warning, directly pass antialias=True (recommended, future default), antialias=None (current default, which means False for Tensors and True for PIL), or antialias=False (only works on Tensors - PIL will still use antialiasing). This also applies if you are using the inference transforms from the models weights: update the call to weights.transforms(antialias=True).
+  warnings.warn(
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+  0%|          | 0/1000 [00:01<?, ?it/s]
+0it [00:01, ?it/s]
+Traceback (most recent call last):
+  File "/home/xcw/coco/MLLM/newattack/AGDI_release/trigger_training/AGDI_llava.py", line 579, in <module>
+    loss_AGDI,chosen_rewards,rejected_rewards = AGDI_loss_sim(policy_chosen_logps,embedding_sim,args.lamb,args.label_smoothing)
+ValueError: not enough values to unpack (expected 3, got 1)

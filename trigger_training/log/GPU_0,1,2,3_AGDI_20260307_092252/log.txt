@@ -1,0 +1,15 @@
+/home/xcw/anaconda3/envs/llava/lib/python3.10/site-packages/clip/clip.py:6: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import packaging
+/home/xcw/anaconda3/envs/llava/lib/python3.10/site-packages/torch/cuda/__init__.py:51: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+usage: AGDI_llava.py [-h] [--batch_size BATCH_SIZE]
+                     [--num_samples NUM_SAMPLES] [--input_res INPUT_RES]
+                     [--alpha ALPHA] [--epsilon EPSILON] [--steps STEPS]
+                     [--output OUTPUT] [--model_name MODEL_NAME]
+                     [--model_type MODEL_TYPE] [--cle_data_path CLE_DATA_PATH]
+                     [--beta BETA] [--eps1 EPS1] [--eps2 EPS2]
+                     [--data_json_path DATA_JSON_PATH]
+                     [--llava_path LLAVA_PATH] [--lamb LAMB]
+                     [--label_smoothing LABEL_SMOOTHING]
+                     [--simlarity SIMLARITY]
+AGDI_llava.py: error: unrecognized arguments: --update_backbone 1 --update_projector 1 --update_encoder 0 --beta_weight 2.0

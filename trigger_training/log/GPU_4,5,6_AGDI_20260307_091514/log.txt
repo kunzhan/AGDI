@@ -1,0 +1,24 @@
+`Qwen2VLRotaryEmbedding` can now be fully parameterized by passing the model config through the `config` argument. All other arguments will be removed in v4.46
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:01<00:01,  1.69s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.04it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:02<00:00,  1.07s/it]
+0it [00:00, ?it/s]
+  0%|          | 0/1000 [00:00<?, ?it/s][A/home/xcw/anaconda3/envs/llama/lib/python3.12/site-packages/torch/nn/modules/conv.py:605: UserWarning: Plan failed with a cudnnException: CUDNN_BACKEND_EXECUTION_PLAN_DESCRIPTOR: cudnnFinalize Descriptor Failed cudnn_status: CUDNN_STATUS_NOT_SUPPORTED (Triggered internally at ../aten/src/ATen/native/cudnn/Conv_v8.cpp:919.)
+  return F.conv3d(
+
+  0%|          | 1/1000 [00:01<31:40,  1.90s/it][A
+  0%|          | 2/1000 [00:02<17:46,  1.07s/it][A
+  0%|          | 3/1000 [00:02<13:50,  1.20it/s][A
+  0%|          | 4/1000 [00:03<11:29,  1.45it/s][A
+  0%|          | 5/1000 [00:03<10:25,  1.59it/s][A
+  1%|          | 6/1000 [00:04<09:46,  1.70it/s][A
+  1%|          | 7/1000 [00:04<09:04,  1.82it/s][A
+  1%|          | 8/1000 [00:05<08:39,  1.91it/s][A
+  1%|          | 9/1000 [00:05<08:34,  1.93it/s][A
+  1%|          | 10/1000 [00:06<08:29,  1.94it/s][A
+  1%|          | 11/1000 [00:06<08:08,  2.03it/s][A
+  1%|          | 12/1000 [00:07<08:01,  2.05it/s][A
+  1%|▏         | 13/1000 [00:07<07:53,  2.08it/s][A
+  1%|▏         | 14/1000 [00:08<07:59,  2.06it/s][A
+  2%|▏         | 15/1000 [00:08<07:53,  2.08it/s][A
+  2%|▏         | 16/1000 [00:09<08:01,  2.05it/s][A
+  2%|▏         | 17/1000 [00:09<08:06,  2.02it/s][A
+  2%|▏         | 18/1000 [00:10<08:03,  2.03it/s][A
